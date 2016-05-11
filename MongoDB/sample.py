@@ -25,4 +25,4 @@ db.posts.insert(post)
 
 #把post数据读取出来
 for item in db.posts.find():
-    print '%s , %s' % (item['title'],item['content']
+	print ('%s , %s' % (item['title'],item['content']))
